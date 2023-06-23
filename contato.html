@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSPITAL CADUCEUS FLAMMEL</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper" class="wrapper" id="wrapper">
+        <div class="menu" id="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="inicio.html" class="inicio" id="inicio">Início</a></li>
+                <li><a href="atendimento.html" class="atendimento" id="atendimento">Horário de Atendimento</a></li>
+                <li><a href="contato.html" class="contato" id="contato">Contato</a></li>
+            </ul>
+        </div>
+        <div class="main" class="main" id="main">
+            <!-- Aqui vai o seu header -->
+            <div class="header" id="header">
+                <img src="./img/nome.jpg" alt="Nome do hospital">
+            </div>
+            <!-- Endereço e Contatos -->
+            <div class="content" class="content" id="content">
+                
+                    <div class="endereço" id="endereço">
+                        <h3>Contato</h3>
+                        <h5>Av. Atlântica, 2719 – Jd. Três Maria / CEP 04772-003 São Paulo – SP<br>
+                        <b>Telefone:</b> (11) 3605-3605
+                        <b> - Whatsapp:</b> (11) 9-9875-6565</h5>
+                    </div>
+                    <hr>
+                    <!--Formulário-->
+                    <div class="fale-conosco" id="fale-conosco">
+                        <div class="marque-consulta" id="marque-consulta">
+                            <h3>Marque sua Consulta</h3>
+                        </div>
+                    </div>
+                        <div class="formulario" id="formulario">
+                            <form onsubmit="" method="get">
+                            <label><b>Nome:</b></label>
+                            <input type="text" name="nome" title="nome">
+                            <label><b>Email:</b></label>
+                            <input type="email" name="email" title="email"><br>
+                            <label><b>Especialidade:</b></label>
+                            <select name="especialidade" title="especialdiade">
+                                <option value="clinica">Clínica Geral</option>
+                                <option value="psicologia">Psicologia</option>
+                                <option value="pediatria">Pediatria</option>
+                                <option value="oftalmologia">Oftalmologia</option>
+                            </select>
+                            <label><b>Assunto:</b></label><input type="text" name="assunto" title="assunto"><br>
+                            <label><b>Mensagem:</b></label>
+                            <textarea name="mensagem" rows="5" cols=48" title="mensagem" title="mensagem"></textarea>
+                            <br>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button> 
+                            </form>
+                        </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <!--Mapa-->
+                    <div class="iframe" id="iframe">
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe title="gmap_iframe" name="gmap_iframe" class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=480&amp;height=360&amp;hl=en&amp;q=Av. Atlântica, 2719 – Jd. Três Maria / CEP 04772-003 São Paulo – SP&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed code google maps</a>
+                            </div>
+                            <style>.mapouter{position:relative;text-align:right;width:100%;height:360px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:360px;}.gmap_iframe {height:360px!important;}</style>
+                        </div>
+                    </div>
+            </div>
+            <!-- Aqui vai o seu rodapé -->    
+            <div class="footer" class="footer" id="footer">
+                <div class="localizacao" id="localizacao">
+                    <h5>Av. Atlântica, 2719 – Jd. Três Maria / CEP 04772-003 São Paulo – SP<br>
+                    <b>Telefone:</b> (11) 3605-3605
+                    <b> - Whatsapp:</b> (11) 9-9875-6565</h5>
+                </div>
+                <div class="direitos" id="direitos">
+                    <h6>
+                        <small>
+                            <b>Todos os direitos reservados a CymoNET e DIO.me - 2023</b>
+                        </small>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
